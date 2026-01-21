@@ -1,4 +1,4 @@
-package Task1.Lvl1;
+package Task1.Lvl1.Ex1;
 
 public class WindInstrument extends Instrument {
 

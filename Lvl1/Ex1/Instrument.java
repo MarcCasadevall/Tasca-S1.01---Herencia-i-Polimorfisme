@@ -1,8 +1,16 @@
-package Task1.Lvl1;
+package Task1.Lvl1.Ex1;
 
 public abstract class Instrument {
     private String name;
     private int price;
+
+    static {
+        System.out.println("Esto se inciara una sola vez cuando abra la clase");
+    }
+
+    {
+        System.out.println("Esto se iniciara cada vez que cree un objeto");
+    }
 
     public Instrument(String nom, int price) {
         this.name = nom;
@@ -24,9 +32,10 @@ public abstract class Instrument {
     public void setPrice(int price) {
         this.price = price;
     }
-  public String play (){
+
+    public String play() {
         return "";
-  }
+    }
 
     @Override
     public String toString() {

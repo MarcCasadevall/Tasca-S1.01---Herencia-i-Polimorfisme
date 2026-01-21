@@ -1,13 +1,13 @@
-package Task1.Lvl1;
+package Task1.Lvl1.Ex1;
 
-public class PercussionInstrument extends Instrument{
+public class StringInstrument extends Instrument {
 
-    public PercussionInstrument(String name, int price) {
+    public StringInstrument(String name, int price) {
         super(name, price);
     }
-    public String play(){
-        return "Està sonant un instrument de percussió";
 
+    public String play() {
+        return "Està sonant un instrument de corda";
     }
 
     public String toString() {
