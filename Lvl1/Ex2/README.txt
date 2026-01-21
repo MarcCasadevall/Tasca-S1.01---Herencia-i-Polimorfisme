@@ -16,6 +16,7 @@ model: ha de ser static
 power: ha de ser final
 Reflexiona, comprova i documenta al teu Readme:
 Quin d’aquests atributs pot ser inicialitzat des del constructor?
+
 Quin no es pot modificar mai?
 Quin afecta totes les instàncies de la classe?
 Afegeix dos mètodes:
@@ -27,4 +28,4 @@ Crea una classe Main amb el mètode main() i:
 Crida el mètode brake() sense crear cap objecte.
 Crea una instància de Car i crida el mètode accelerate() des d’aquesta instància.
 Et pot ajudar a entendre millor el comportament de static fer servir System.out.println() per imprimir valors i comprovar quan canvien i quan no.
- Pots provar a crear diversos cotxes i veure si els canvis en el model afecten a tots, o només a un. Documenta les teves descobertes.
+Pots provar a crear diversos cotxes i veure si els canvis en el model afecten a tots, o només a un. Documenta les teves descobertes.
