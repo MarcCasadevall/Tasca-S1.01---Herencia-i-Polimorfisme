@@ -2,8 +2,8 @@ package Task1.Lvl1;
 
 public class PercussionInstrument extends Instrument{
 
-    public PercussionInstrument(String nom, int price) {
-        super(nom, price);
+    public PercussionInstrument(String name, int price) {
+        super(name, price);
     }
     public String play(){
         return "Està sonant un instrument de percussió";
@@ -11,6 +11,9 @@ public class PercussionInstrument extends Instrument{
     }
 
     public String toString() {
-        return "PercussionInstrument{}";
+        return "Instrument{" +
+                "name='" + super.getName() + '\'' +
+                ", price=" + super.getPrice() +
+                '}';
     }
 }

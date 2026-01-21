@@ -2,8 +2,8 @@ package Task1.Lvl1;
 
 public class WindInstrument extends Instrument {
 
-    public WindInstrument(String nom, int price) {
-        super(nom, price);
+    public WindInstrument(String name, int price) {
+        super(name, price);
     }
 
     public String play() {
@@ -11,6 +11,9 @@ public class WindInstrument extends Instrument {
     }
 
     public String toString() {
-        return "WindInstrument{}";
+        return "Instrument{" +
+                "name='" + super.getName() + '\'' +
+                ", price=" + super.getPrice() +
+                '}';
     }
 }

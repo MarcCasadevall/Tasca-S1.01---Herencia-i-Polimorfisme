@@ -1,20 +1,20 @@
 package Task1.Lvl1;
 
 public abstract class Instrument {
-    private String nom;
+    private String name;
     private int price;
 
     public Instrument(String nom, int price) {
-        this.nom = nom;
+        this.name = nom;
         this.price = price;
     }
 
-    public String getNom() {
-        return nom;
+    public String getName() {
+        return name;
     }
 
-    public void setNom(String nom) {
-        this.nom = nom;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public int getPrice() {
@@ -24,5 +24,15 @@ public abstract class Instrument {
     public void setPrice(int price) {
         this.price = price;
     }
+  public String play (){
+        return "";
+  }
 
+    @Override
+    public String toString() {
+        return "Instrument{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                '}';
+    }
 }
