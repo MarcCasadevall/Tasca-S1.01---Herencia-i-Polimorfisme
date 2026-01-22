@@ -18,7 +18,8 @@ Reflexiona, comprova i documenta al teu Readme:
 Quin d’aquests atributs pot ser inicialitzat des del constructor?
 power perque no es static, es podra inicialitzar 1 cop.
 Quin no es pot modificar mai?
-brand perque es static final, el valor que li donem es quedara desde que iniciem la clase.
+brand perque es final,el valor que li donem es quedara desde que iniciem la clase .
+y el power que es final y se quedara desde que inicializemos el objeto.
 Quin afecta totes les instàncies de la classe?
 model i brand perque son statics
 Afegeix dos mètodes:
