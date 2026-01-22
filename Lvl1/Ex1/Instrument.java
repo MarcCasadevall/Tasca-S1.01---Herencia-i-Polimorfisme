@@ -41,9 +41,7 @@ public abstract class Instrument {
         this.price = price;
     }
 
-    public String play() {
-        return "";
-    }
+    public abstract String play();
 
     @Override
     public String toString() {
