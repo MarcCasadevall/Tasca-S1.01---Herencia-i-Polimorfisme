@@ -97,11 +97,7 @@ Allows creation of multiple types of instruments and polymorphic play behavior
 
 🛠 Technologies
 
-Frontend: React, Tailwind (if UI added later)
-
 Backend: Java
-
-Database: MySQL, MongoDB (if persistent storage added)
 
 🚀 Installation and Running
 
