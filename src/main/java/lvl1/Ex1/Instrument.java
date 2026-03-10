@@ -7,11 +7,11 @@ public abstract class Instrument {
 
     static {
         System.out.println("\n" +
-                "This will start only once when you open the class");
+                "This runs once when the class is loaded");
     }
 
     {
-        System.out.println("This will start only once when you open a object");
+        System.out.println("This runs every time an object is created");
     }
 
     public Instrument(String name, int price) {
@@ -23,25 +23,16 @@ public abstract class Instrument {
         return testing;
     }
 
-    public static void setTesting(String testing) {
-        Instrument.testing = testing;
-    }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public int getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
-        this.price = price;
-    }
 
     public abstract String play();
 

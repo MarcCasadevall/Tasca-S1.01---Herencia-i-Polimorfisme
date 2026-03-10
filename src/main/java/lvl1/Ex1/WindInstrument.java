@@ -9,11 +9,4 @@ public class WindInstrument extends Instrument {
     public String play() {
         return "A ventilation instrument is playing\n";
     }
-
-    public String toString() {
-        return "Instrument{" +
-                "name='" + super.getName() + '\'' +
-                ", price=" + super.getPrice() +
-                '}';
-    }
 }

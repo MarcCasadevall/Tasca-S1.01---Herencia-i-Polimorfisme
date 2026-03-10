@@ -9,11 +9,4 @@ public class PercussionInstrument extends Instrument {
         return "\n" + "A percussion instrument is playing";
 
     }
-
-    public String toString() {
-        return "Instrument{" +
-                "name='" + super.getName() + '\'' +
-                ", price=" + super.getPrice() +
-                '}';
-    }
 }

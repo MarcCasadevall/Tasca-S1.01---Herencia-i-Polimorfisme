@@ -9,11 +9,4 @@ public class StringInstrument extends Instrument {
     public String play() {
         return "A string instrument is playing";
     }
-
-    public String toString() {
-        return "Instrument{" +
-                "name='" + super.getName() + '\'' +
-                ", price=" + super.getPrice() +
-                '}';
-    }
 }

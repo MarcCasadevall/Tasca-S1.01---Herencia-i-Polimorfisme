@@ -6,14 +6,12 @@ public class Main {
         Car.brake();
 
         Car.setModel("Focus");
-        Car car1 = new Car(200) {
-        };
+        Car car1 = new Car(200);
         car1.accelerate();
         System.out.println(car1.toString());
 
         Car.setModel("Fiesta");
-        Car car2 = new Car(120) {
-        };
+        Car car2 = new Car(120);
         System.out.println(car2.toString());
     }
 }
